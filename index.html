@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>My Wysiwyg</title>
+
+</head>
+<body>
+    <h1>My Wysiwyg</h1>
+
+
+    <!-- élément cible : -->
+    <div id="textarea"></div>
+
+    <!-- Ajout de BABEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.6/babel.min.js"></script>
+
+    <!-- import du script/module : -->
+    <script type="module">
+        import { MyWysiwyg } from './modules/my_wysiwyg.js';
+
+        let mw = new MyWysiwyg(document.getElementById('textarea'), {
+            // Showimage: false,
+            // buttons: ["bold", "italic", "color", "underline", "fontsize", "link", "strike"]
+        });
+
+        // Enregistrer via le bouton
+     
+    </script>
+
+
+</body>
+</html>

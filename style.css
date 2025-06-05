@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff; 
+    color: #4f4f4f; 
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: palevioletred; 
+    border-top: 2px solid darkturquoise;
+    border-bottom: 2px solid darkturquoise;
+    border-right: 2px solid darkturquoise;
+    border-left: 2px solid darkturquoise; 
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.zoneDeText {
+    margin: 30px auto;
+    min-height: 200px;
+    padding: 15px;
+    border: 2px solid #c1d3e0; 
+    border-radius: 12px;
+    background-color: #ffffff; 
+    width: 80vw;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    resize: none;
+}
+
+.barredoutils,.BarreAlign {
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    gap: 8px;
+}
+.BarreAlign{
+    margin: 20px auto;
+}
+.BarreAlign button{
+    background-color: #5c97a1; 
+
+}
+
+button {
+    background-color: #88c7d0; 
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #75aab3; 
+}
+
+button:active {
+    background-color: #6e9da2; 
+}
+
+#saveBtn{
+    margin-top: 15%;
+}
+
+select{
+    color: white;
+    background-color: #88c7d0;
+}
+
+#intro{
+    color: #88c7d0;
+    text-align: center;
+}
+#khaby{
+    display: block;
+    margin: auto;
+}
